@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Cotizador\Cotizador_Copesa\bin\Cotizador_Copesa.dll
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Cotizador\Cotizador_Copesa\bin\Cotizador_Copesa.pdb
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Cotizador\Cotizador_Copesa\bin\AjaxControlToolkit.dll
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Cotizador\Cotizador_Copesa\obj\Debug\Cotizador_Copesa.dll
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Cotizador\Cotizador_Copesa\obj\Debug\Cotizador_Copesa.pdb
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Cotizador\Cotizador_Copesa\obj\Debug\Cotizador_Copesa.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Cotizador\Cotizador_Copesa\bin\itextsharp.dll

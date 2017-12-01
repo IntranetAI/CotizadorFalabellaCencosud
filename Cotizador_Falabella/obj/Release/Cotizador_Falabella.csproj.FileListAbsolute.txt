@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Cotizador\Cotizador_Falabella\bin\Cotizador_Falabella.dll.config
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Cotizador\Cotizador_Falabella\bin\Cotizador_Falabella.dll
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Cotizador\Cotizador_Falabella\bin\Cotizador_Falabella.pdb
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Cotizador\Cotizador_Falabella\bin\AjaxControlToolkit.dll
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Cotizador\Cotizador_Falabella\bin\itextsharp.dll
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Cotizador\Cotizador_Falabella\obj\Release\Cotizador_Falabella.dll
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Cotizador\Cotizador_Falabella\obj\Release\Cotizador_Falabella.pdb

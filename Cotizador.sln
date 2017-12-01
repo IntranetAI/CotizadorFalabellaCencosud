@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cotizador_Cencosud", "Cotizador_Cencosud\Cotizador_Cencosud.csproj", "{72CFDED9-E752-48B8-A7AA-427077CB82DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cotizador_Falabella", "Cotizador_Falabella\Cotizador_Falabella.csproj", "{C2D6BA9E-208F-4E27-B2BC-DF311469C6C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cotizador_Copesa", "Cotizador_Copesa\Cotizador_Copesa.csproj", "{7C08ADA3-699F-48EA-B23C-B0B5A9AEEDEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72CFDED9-E752-48B8-A7AA-427077CB82DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72CFDED9-E752-48B8-A7AA-427077CB82DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72CFDED9-E752-48B8-A7AA-427077CB82DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72CFDED9-E752-48B8-A7AA-427077CB82DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2D6BA9E-208F-4E27-B2BC-DF311469C6C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D6BA9E-208F-4E27-B2BC-DF311469C6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D6BA9E-208F-4E27-B2BC-DF311469C6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D6BA9E-208F-4E27-B2BC-DF311469C6C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C08ADA3-699F-48EA-B23C-B0B5A9AEEDEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C08ADA3-699F-48EA-B23C-B0B5A9AEEDEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C08ADA3-699F-48EA-B23C-B0B5A9AEEDEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C08ADA3-699F-48EA-B23C-B0B5A9AEEDEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

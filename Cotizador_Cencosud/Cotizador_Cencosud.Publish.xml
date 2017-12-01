@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\admin\Desktop\Intranet_Publicada" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Perfil1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/Cotizador_Cencosud.pdb" publishTime="12/28/2016 15:24:48" />
+    <file relUrl="ModuloPresupuesto/View/Oferta_Comercial.aspx" publishTime="12/28/2016 15:16:24" />
+    <file relUrl="Estructura/Js/ConfiguracionPantalla.js" publishTime="12/06/2016 11:24:31" />
+    <file relUrl="Estructura/Image/fondointento.jpg" publishTime="12/06/2016 10:32:29" />
+    <file relUrl="ModuloPresupuesto/View/PPTO_Despacho.aspx" publishTime="12/23/2016 13:06:51" />
+    <file relUrl="Estructura/Image/LOGO A.png" publishTime="12/15/2016 11:22:25" />
+    <file relUrl="Estructura/Js/jquery-1.11.3.js" publishTime="12/06/2016 11:24:31" />
+    <file relUrl="Estructura/MasterView/MasterEstructura.Master" publishTime="12/26/2016 13:43:25" />
+    <file relUrl="ModuloPresupuesto/View/PPTO_Aprobar.aspx" publishTime="12/23/2016 17:55:43" />
+    <file relUrl="Estructura/Js/validator.js" publishTime="12/22/2016 14:57:30" />
+    <file relUrl="ModuloPresupuesto/View/PPTO_Bootstrap.aspx" publishTime="12/20/2016 08:21:26" />
+    <file relUrl="ModuloUsuario/View/Login.aspx" publishTime="12/26/2016 13:48:03" />
+    <file relUrl="ModuloUsuario/View/Contactos_Comerciales.aspx" publishTime="12/22/2016 16:58:13" />
+    <file relUrl="ModuloPresupuesto/View/Listar_PPTO.aspx" publishTime="12/28/2016 15:13:35" />
+    <file relUrl="Estructura/Image/Logo color lateral.jpg" publishTime="12/06/2016 10:12:46" />
+    <file relUrl="Estructura/Image/pdf-icon.jpg" publishTime="01/12/2015 09:04:00" />
+    <file relUrl="Estructura/Image/índice.jpg" publishTime="12/28/2016 15:23:37" />
+    <file relUrl="bin/AjaxControlToolkit.dll" publishTime="01/12/2015 09:50:56" />
+    <file relUrl="Estructura/Css/style.css" publishTime="12/06/2016 10:29:27" />
+    <file relUrl="Estructura/Image/bg-sitio.jpg" publishTime="12/22/2016 12:53:11" />
+    <file relUrl="Estructura/Js/jquery-ui-1.11.4.js" publishTime="12/06/2016 11:24:31" />
+    <file relUrl="Estructura/Image/sprite-masterpage.png" publishTime="12/15/2016 11:12:09" />
+    <file relUrl="bin/itextsharp.dll" publishTime="01/12/2015 09:50:56" />
+    <file relUrl="Estructura/Image/Logo_Jumbo_Cencosud.png" publishTime="12/15/2016 12:02:34" />
+    <file relUrl="Estructura/Image/Logo_Santa_Isabel_Cencosud.png" publishTime="12/22/2016 12:39:16" />
+    <file relUrl="bin/Cotizador_Cencosud.dll" publishTime="12/28/2016 15:24:48" />
+    <file relUrl="Estructura/Image/sprite_buttons.png" publishTime="12/16/2016 17:44:06" />
+    <file relUrl="Estructura/Image/Logos color central.ico" publishTime="12/15/2016 11:20:50" />
+    <file relUrl="Estructura/Image/Despacho.png" publishTime="12/26/2016 09:30:13" />
+    <file relUrl="Estructura/Image/check.png" publishTime="01/12/2015 09:04:00" />
+    <file relUrl="Estructura/Js/jquery.min.js" publishTime="12/06/2016 11:24:31" />
+    <file relUrl="Estructura/Js/jquery-1.12.4.js" publishTime="12/23/2016 11:43:21" />
+    <file relUrl="index.aspx" publishTime="12/06/2016 10:18:56" />
+    <file relUrl="Estructura/Css/estilo.css" publishTime="12/06/2016 10:32:39" />
+    <file relUrl="Estructura/Js/Script sin encriptacion.js" publishTime="12/06/2016 11:24:31" />
+    <file relUrl="Web.config" publishTime="12/19/2016 10:06:29" />
+    <file relUrl="Estructura/Image/images.jpg" publishTime="12/22/2016 16:56:37" />
+    <file relUrl="ModuloPresupuesto/View/Presupuestador.aspx" publishTime="12/23/2016 09:54:33" />
+  </publishProfile>
+</publishData>

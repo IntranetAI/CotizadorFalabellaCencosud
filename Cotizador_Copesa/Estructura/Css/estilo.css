@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana;
+    font-size: 8pt;
+}
+body {
+    background-image: url(../Image/fondointento.jpg);
+    background-repeat: repeat-x;
+}
+input[type="text"], textarea{
+    border: 1px solid #959595;
+    padding: 3px;
+}
+select{
+    padding: 1px;
+    padding-left: 0px;
+    height: 21px;
+    border: 1px solid #959595;
+}
+#contPagina{
+    border: 1px solid #959595;
+    padding: 8px;
+    width: 90%;
+    background-color: white;
+    margin-top: 5px;
+}
+#contCabecera{
+    height: 145px;/*120px;*/
+    width: 100%;
+    border: 1px solid #959595;
+    border-bottom: 0px;
+    /*background-image: url(../img/banner.jpg);*/
+    background-repeat: no-repeat;
+}
+#contUsuario{
+    border: 1px solid #959595;
+   /* background: linear-gradient(top, #1F4C7F 0%, #2E7CC1 100%);  
+    background: -moz-linear-gradient(top, #1F4C7F 0%, #2E7CC1 100%); 
+    background: -webkit-linear-gradient(top, #1F4C7F 0%, #2E7CC1 100%);*/
+    width: 100%;
+    height: 18px;
+    margin-bottom: 1px;
+    padding-top: 6px;
+    /*padding-right: 10px; color: white;*/
+   
+    text-align: right;
+}
+#contMenuSuperior{
+    border: 1px solid #959595;
+    background: linear-gradient(top, #ededed 0%, #959595 100%);  
+    background: -moz-linear-gradient(top, #ededed 0%, #959595 100%); 
+    background: -webkit-linear-gradient(top, #ededed 0%,#959595 100%);
+    width: 100%;
+    height: 30px;
+    border-bottom: 4px solid green;
+}
+#contPrincipal{
+    width: 100%;
+    min-height: 380px;
+    border: 1px solid #959595;
+    border-top: 0px;
+}
+#contMenuIzquierdo{
+    float: left;
+    width: 200px;
+    /*border-right: 1px solid #959595;*/
+}
+#contOpcion{
+    display: inline-block;
+    width: 780px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#ulMenuSuperior{
+    list-style: none;
+}
+#ulMenuSuperior li{
+    float: left;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    color: navy;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-top: 3px solid transparent;
+}
+#ulMenuSuperior li:hover{
+    background-color: #959595;
+    border-top: 3px solid orange;
+    border-left: 1px solid #959595;
+    border-right: 1px solid #959595;
+}
+#ulMenuIzquierdo{
+    margin: 10px;
+    list-style: none;
+    border: 1px solid #959595;
+    border-bottom: 0px;
+}
+#ulMenuIzquierdo li{
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #959595;
+    border-top: 3px solid transparent;
+    background: linear-gradient(top, #ededed 0%, white 100%);  
+    background: -moz-linear-gradient(top, #ededed 0%, white 100%); 
+    background: -webkit-linear-gradient(top, #ededed 0%, white 100%);
+}
+#ulMenuIzquierdo li:hover{
+    background: linear-gradient(top, #F3F7FA 0%, #E2EBF4 100%);  
+    background: -moz-linear-gradient(top, #F3F7FA 0%, #E2EBF4 100%); 
+    background: -webkit-linear-gradient(top, #F3F7FA 0%,#E2EBF4 100%);
+    border-top: 3px solid orange;
+}
+.divDetalle{
+  
+    overflow: hidden;
+    overflow: hidden;
+  
+}
+.trTitulo{
+    height: 20px;
+}
+.trTitulo td{
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+    background: linear-gradient(top, #ededed 0%, #959595 100%);  
+    background: -moz-linear-gradient(top, #ededed 0%, #959595 100%); 
+    background: -webkit-linear-gradient(top, #ededed 0%,#959595 100%);
+    border-right: 1px solid #959595;
+}
+.trItem td{
+    padding: 5px;
+    white-space: nowrap;
+    border-right: 1px solid #959595;
+    cursor: pointer;
+}
+.trItem td:last-child
+{
+    border-right: 0px;
+}
+.divTitulo{
+    background: linear-gradient(top, #D3D7DA 0%, #E2EBF4 100%);  
+    background: -moz-linear-gradient(top, #D3D7DA 0%, #E2EBF4 100%); 
+    background: -webkit-linear-gradient(top, #D3D7DA 0%,#E2EBF4 100%);
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #959595;
+    text-align: left;
+}
+.divSeccion{
+    padding: 10px;
+    border: 1px solid #959595;
+    border-top: 0px;
+    margin-bottom: 2px;
+}
+.divEtiqueta{
+    display: inline-block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+.divCampo{
+    display: inline-block;
+    text-align: left;
+}

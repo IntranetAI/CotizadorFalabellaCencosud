@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7C08ADA3-699F-48EA-B23C-B0B5A9AEEDEE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cotizador_Copesa</RootNamespace>
+    <AssemblyName>Cotizador_Copesa</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\Cotizador_Cencosud\bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\Cotizador_Falabella\bin\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Estructura\Css\estilo.css" />
+    <Content Include="Estructura\Css\style.css" />
+    <Content Include="Estructura\Image\bg-sitio.jpg" />
+    <Content Include="Estructura\Image\check.png" />
+    <Content Include="Estructura\Image\Despacho.png" />
+    <Content Include="Estructura\Image\fondointento.jpg" />
+    <Content Include="Estructura\Image\icono detalle.jpg" />
+    <Content Include="Estructura\Image\images.jpg" />
+    <Content Include="Estructura\Image\LOGO A.png" />
+    <Content Include="Estructura\Image\Logo color lateral.jpg" />
+    <Content Include="Estructura\Image\Logos color central.ico" />
+    <Content Include="Estructura\Image\logo_copesa.jpg" />
+    <Content Include="Estructura\Image\pdf-icon.jpg" />
+    <Content Include="Estructura\Image\sprite-masterpage.png" />
+    <Content Include="Estructura\Image\sprite_buttons.png" />
+    <Content Include="Estructura\Js\ConfiguracionPantalla.js" />
+    <Content Include="Estructura\Js\jquery-1.11.3.js" />
+    <Content Include="Estructura\Js\jquery-1.12.4.js" />
+    <Content Include="Estructura\Js\jquery-ui-1.11.4.js" />
+    <Content Include="Estructura\Js\jquery.min.js" />
+    <Content Include="Estructura\Js\Script sin encriptacion.js" />
+    <Content Include="Estructura\Js\validator.js" />
+    <Content Include="index.aspx" />
+    <Content Include="ModuloPresupuesto\View\Detalle_PPTO.aspx" />
+    <Content Include="ModuloPresupuesto\View\Listar_PPTO.aspx" />
+    <Content Include="ModuloPresupuesto\View\Oferta_Comercial.aspx" />
+    <Content Include="ModuloPresupuesto\View\Presupuestador.aspx" />
+    <Content Include="ModuloUsuario\View\Login.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Conexion.cs" />
+    <Compile Include="Estructura\MasterView\MasterEstructura.Master.cs">
+      <DependentUpon>MasterEstructura.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Estructura\MasterView\MasterEstructura.Master.designer.cs">
+      <DependentUpon>MasterEstructura.Master</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloPresupuesto\Controller\Controller_Cotizador.cs" />
+    <Compile Include="ModuloPresupuesto\Controller\Controller_Tarifa.cs" />
+    <Compile Include="ModuloPresupuesto\Controller\Controller_ValorUF.cs" />
+    <Compile Include="ModuloPresupuesto\Model\Cotizador.cs" />
+    <Compile Include="ModuloPresupuesto\Model\Encuadernacion.cs" />
+    <Compile Include="ModuloPresupuesto\Model\Impresion.cs" />
+    <Compile Include="ModuloPresupuesto\Model\Tarifa_Papel.cs" />
+    <Compile Include="ModuloPresupuesto\Model\Terminaciones.cs" />
+    <Compile Include="ModuloPresupuesto\Model\ValorUF.cs" />
+    <Compile Include="ModuloPresupuesto\View\Detalle_PPTO.aspx.cs">
+      <DependentUpon>Detalle_PPTO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModuloPresupuesto\View\Detalle_PPTO.aspx.designer.cs">
+      <DependentUpon>Detalle_PPTO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloPresupuesto\View\Listar_PPTO.aspx.cs">
+      <DependentUpon>Listar_PPTO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModuloPresupuesto\View\Listar_PPTO.aspx.designer.cs">
+      <DependentUpon>Listar_PPTO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloPresupuesto\View\Oferta_Comercial.aspx.cs">
+      <DependentUpon>Oferta_Comercial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModuloPresupuesto\View\Oferta_Comercial.aspx.designer.cs">
+      <DependentUpon>Oferta_Comercial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloPresupuesto\View\Presupuestador.aspx.cs">
+      <DependentUpon>Presupuestador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModuloPresupuesto\View\Presupuestador.aspx.designer.cs">
+      <DependentUpon>Presupuestador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloUsuario\Controller\Controller_Usuario.cs" />
+    <Compile Include="ModuloUsuario\Model\Usuario.cs" />
+    <Compile Include="ModuloUsuario\View\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModuloUsuario\View\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PDF\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Estructura\MasterView\MasterEstructura.Master" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>65301</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

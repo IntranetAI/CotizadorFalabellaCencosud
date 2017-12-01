@@ -1,0 +1,5 @@
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Cotizador\Cotizador_Cencosud\bin\Cotizador_Cencosud.dll
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Cotizador\Cotizador_Cencosud\bin\Cotizador_Cencosud.pdb
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Cotizador\Cotizador_Cencosud\obj\Debug\Cotizador_Cencosud.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Cotizador\Cotizador_Cencosud\obj\Debug\Cotizador_Cencosud.dll
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Cotizador\Cotizador_Cencosud\obj\Debug\Cotizador_Cencosud.pdb

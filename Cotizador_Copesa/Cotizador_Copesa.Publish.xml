@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\Admin\Desktop\Intranet_Publicada" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Perfil1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="ModuloPresupuesto/View/Oferta_Comercial.aspx" publishTime="09/14/2017 18:01:29" />
+    <file relUrl="Estructura/Js/ConfiguracionPantalla.js" publishTime="09/13/2017 15:09:56" />
+    <file relUrl="Estructura/Image/icono detalle.jpg" publishTime="09/13/2017 15:09:46" />
+    <file relUrl="Estructura/Image/fondointento.jpg" publishTime="09/13/2017 15:09:46" />
+    <file relUrl="Estructura/Image/LOGO A.png" publishTime="09/13/2017 15:09:46" />
+    <file relUrl="Estructura/Js/jquery-1.11.3.js" publishTime="09/13/2017 15:09:56" />
+    <file relUrl="Estructura/MasterView/MasterEstructura.Master" publishTime="09/14/2017 13:54:57" />
+    <file relUrl="bin/Cotizador_Copesa.dll" publishTime="09/15/2017 17:54:14" />
+    <file relUrl="Estructura/Js/validator.js" publishTime="09/13/2017 15:09:56" />
+    <file relUrl="ModuloUsuario/View/Login.aspx" publishTime="09/14/2017 13:54:54" />
+    <file relUrl="bin/Cotizador_Copesa.pdb" publishTime="09/15/2017 17:54:14" />
+    <file relUrl="Estructura/Image/sprite_buttons.png" publishTime="09/13/2017 15:09:46" />
+    <file relUrl="ModuloPresupuesto/View/Listar_PPTO.aspx" publishTime="09/14/2017 15:09:37" />
+    <file relUrl="Estructura/Image/Logo color lateral.jpg" publishTime="09/13/2017 15:09:46" />
+    <file relUrl="Estructura/Image/pdf-icon.jpg" publishTime="09/13/2017 15:09:46" />
+    <file relUrl="bin/AjaxControlToolkit.dll" publishTime="01/12/2015 10:50:56" />
+    <file relUrl="Estructura/Css/style.css" publishTime="09/13/2017 15:09:33" />
+    <file relUrl="Estructura/Js/jquery-1.12.4.js" publishTime="09/13/2017 15:09:56" />
+    <file relUrl="Estructura/Js/jquery-ui-1.11.4.js" publishTime="09/13/2017 15:09:56" />
+    <file relUrl="Estructura/Image/sprite-masterpage.png" publishTime="09/13/2017 15:09:46" />
+    <file relUrl="bin/itextsharp.dll" publishTime="01/12/2015 10:50:56" />
+    <file relUrl="Estructura/Image/check.png" publishTime="09/13/2017 15:09:46" />
+    <file relUrl="Estructura/Image/Logos color central.ico" publishTime="09/13/2017 15:09:46" />
+    <file relUrl="Estructura/Image/Despacho.png" publishTime="09/13/2017 15:09:46" />
+    <file relUrl="Estructura/Image/bg-sitio.jpg" publishTime="09/13/2017 15:09:46" />
+    <file relUrl="Estructura/Js/jquery.min.js" publishTime="09/13/2017 15:09:56" />
+    <file relUrl="Web.config" publishTime="09/15/2017 18:05:00" />
+    <file relUrl="index.aspx" publishTime="09/14/2017 13:17:53" />
+    <file relUrl="Estructura/Css/estilo.css" publishTime="09/13/2017 15:09:33" />
+    <file relUrl="Estructura/Js/Script sin encriptacion.js" publishTime="09/13/2017 15:09:56" />
+    <file relUrl="ModuloPresupuesto/View/Detalle_PPTO.aspx" publishTime="09/13/2017 15:23:35" />
+    <file relUrl="Estructura/Image/logo_copesa.jpg" publishTime="09/14/2017 13:52:12" />
+    <file relUrl="Estructura/Image/images.jpg" publishTime="09/13/2017 15:09:46" />
+    <file relUrl="ModuloPresupuesto/View/Presupuestador.aspx" publishTime="09/15/2017 16:59:26" />
+  </publishProfile>
+</publishData>

@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterEstructura.master.cs" Inherits="Cotizador_Copesa.Estructura.MasterView.MasterEstructura" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            height: 15px;
+        }
+    </style>
+    <script language="javascript" type="text/javascript">
+        var txt = "Aimpresores Presupuestador GrupoCopesa ";
+        var espera = 1000;
+        var refresca = null;
+        function titulo() {
+            document.title = txt;
+            txt = txt.substring(1, txt.length) + txt.charAt(0);
+            refresca = setTimeout("titulo()", espera);
+        }
+        titulo();
+    </script>
+   
+    <link href="../../Estructura/Css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../../Estructura/Css/estilo.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+    
+    <link rel="shortcut icon" type="image/x-icon" href="../../Estructura/Image/Logos color central.ico" />
+    <style>
+    .navbar 
+    {
+        margin-bottom:0px !important;
+    }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server" >
+    <center>
+        <div id="contPagina">
+            <div align="left" style="margin-top: 0px">
+                <div align="right">
+                </div>
+                <table style="width: 100%;">
+                    <tr>
+                        <td align="left" style="width:270px;">
+                            <asp:Image ID="Image2" runat="server" ImageUrl="~/Estructura/Image/Logo color lateral.jpg" Width="250px"/>
+                        </td>
+                        <td style="vertical-align:top;"><asp:Label ID="Label1" runat="server" Font-Bold="True" Text="Bienvenido(a):"></asp:Label>
+                            &nbsp;&nbsp;
+                            <asp:Label ID="lblUsuario" runat="server" Text=""></asp:Label></td>
+                        <td class="style1" align="right">
+                            <asp:Image ID="Image1" runat="server" 
+                                ImageUrl="~/Estructura/Image/Logo_Falabella.png"  Width="120px"  
+                                AlternateText="Falabella"/>
+             
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <asp:Label ID="Label2" runat="server" Text="" ></asp:Label>
+        <div id="contPrincipal">
+            <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server" EnablePageMethods="true"
+                EnableScriptGlobalization="True" EnableScriptLocalization="False">
+            </asp:ToolkitScriptManager>
+            <div class="divDetalle">
+                <br />
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div style="position: inherit;" align="center">
+            <br />
+            <br />
+            <asp:Label ID="lblFooter" runat="server" Font-Size="X-Small" ForeColor="#666666"
+                Text="© 2016 A Impresores S.A. Todos los derechos reservados. " Font-Italic="False"></asp:Label>
+        </div>
+        </div>
+    </center>
+    </form>
+</body>
+</html>
